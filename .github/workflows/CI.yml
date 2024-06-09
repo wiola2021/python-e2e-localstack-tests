@@ -206,6 +206,7 @@ jobs:
             chmod +x run-docker-compose-ci.sh
             ./run-docker-compose-ci.sh
 
+
         - name: Installing all necessary packages
           run: pip install -r requirements.txt
 
