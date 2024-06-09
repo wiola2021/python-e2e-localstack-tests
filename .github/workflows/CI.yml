@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
       - master
-  workflow_dispatch:  # This line enables manual triggering
+  workflow_dispatch:
 
 jobs:
   test_web_chrome:
@@ -41,6 +41,9 @@ jobs:
 
     - name: Installing all necessary packages
       run: pip install -r requirements.txt
+
+    - name: Print environment variables
+      run: env
 
     - name: GUI tests
       env:
@@ -209,23 +212,3 @@ jobs:
       env:
         BACKEND_URL: "http://localhost:4001"
       run: pytest tests/api/
-
-  run-api-tests:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: python-e2e-localstack-tests
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-
-    - name: Install dependencies
-      run: pip install -r requirements.txt
-
-    - name: Run API tests
-      run: pytest tests/api/post_sign_up.py
