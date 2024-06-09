@@ -133,4 +133,4 @@ jobs:
 
       - name: Run API tests
         run: |
-          pytest tests/api_tests/
+          pytest tests/api/
