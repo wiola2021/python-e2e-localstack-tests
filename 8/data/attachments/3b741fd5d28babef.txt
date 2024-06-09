@@ -5,11 +5,11 @@ INFO     WDM:logger.py:11 Driver [/home/runner/.wdm/drivers/chromedriver/linux64
 INFO     http.client:base_api.py:18 Making POST request to URL: http://localhost:4001/users/signup
 INFO     http.client:base_api.py:24 Request JSON Body:
 {
-    "username": "ryanmiller",
-    "password": "R0FLAZvf^4",
-    "email": "egriffin@example.org",
-    "firstName": "Sherri",
-    "lastName": "Baldwin",
+    "username": "dgraham",
+    "password": "f#$O2GbCP*",
+    "email": "zwhite@example.org",
+    "firstName": "Chase",
+    "lastName": "Martinez",
     "roles": [
         "ROLE_ADMIN",
         "ROLE_CLIENT"
@@ -26,51 +26,19 @@ INFO     http.client:base_api.py:35 Response Headers:
     "X-Frame-Options": "DENY",
     "Content-Type": "application/json;charset=UTF-8",
     "Transfer-Encoding": "chunked",
-    "Date": "Sun, 09 Jun 2024 22:10:19 GMT",
+    "Date": "Sun, 09 Jun 2024 22:10:21 GMT",
     "Keep-Alive": "timeout=60",
     "Connection": "keep-alive"
 }
 INFO     http.client:base_api.py:39 Response Body:
 {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyeWFubWlsbGVyIiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxNzk3MTAxOSwiZXhwIjoxNzE3OTcxMzE5fQ.JqDyh9gIADbxyjMzUvUD1NBUzrJcJlXVox4Yi5q7yhg"
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkZ3JhaGFtIiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxNzk3MTAyMiwiZXhwIjoxNzE3OTcxMzIyfQ.3JACg7VNoUVfK67OQ1XQd8l0no6q2n501v8VqvWKmXg"
 }
 INFO     http.client:base_api.py:18 Making POST request to URL: http://localhost:4001/users/signin
 INFO     http.client:base_api.py:24 Request JSON Body:
 {
-    "username": "ryanmiller",
-    "password": "R0FLAZvf^4"
-}
-INFO     http.client:base_api.py:35 Response Headers:
-{
-    "Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
-    "X-Content-Type-Options": "nosniff",
-    "X-XSS-Protection": "1; mode=block",
-    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
-    "Pragma": "no-cache",
-    "Expires": "0",
-    "X-Frame-Options": "DENY",
-    "Content-Type": "application/json;charset=UTF-8",
-    "Transfer-Encoding": "chunked",
-    "Date": "Sun, 09 Jun 2024 22:10:20 GMT",
-    "Keep-Alive": "timeout=60",
-    "Connection": "keep-alive"
-}
-INFO     http.client:base_api.py:39 Response Body:
-{
-    "username": "ryanmiller",
-    "roles": [
-        "ROLE_ADMIN",
-        "ROLE_CLIENT"
-    ],
-    "firstName": "Sherri",
-    "lastName": "Baldwin",
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyeWFubWlsbGVyIiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxNzk3MTAyMCwiZXhwIjoxNzE3OTcxMzIwfQ.1kprG_MSpXEWIBB5kjaOMQeDS4PrFxIi34_bcLJ55sc",
-    "email": "egriffin@example.org"
-}
-INFO     http.client:base_api.py:18 Making GET request to URL: http://localhost:4001/users/ryanmiller
-INFO     http.client:base_api.py:20 Request Headers:
-{
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyeWFubWlsbGVyIiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxNzk3MTAyMCwiZXhwIjoxNzE3OTcxMzIwfQ.1kprG_MSpXEWIBB5kjaOMQeDS4PrFxIi34_bcLJ55sc"
+    "username": "dgraham",
+    "password": "f#$O2GbCP*"
 }
 INFO     http.client:base_api.py:35 Response Headers:
 {
@@ -84,25 +52,57 @@ INFO     http.client:base_api.py:35 Response Headers:
     "Content-Type": "application/json;charset=UTF-8",
     "Transfer-Encoding": "chunked",
     "Date": "Sun, 09 Jun 2024 22:10:23 GMT",
+    "Keep-Alive": "timeout=60",
+    "Connection": "keep-alive"
+}
+INFO     http.client:base_api.py:39 Response Body:
+{
+    "username": "dgraham",
+    "roles": [
+        "ROLE_ADMIN",
+        "ROLE_CLIENT"
+    ],
+    "firstName": "Chase",
+    "lastName": "Martinez",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkZ3JhaGFtIiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxNzk3MTAyMywiZXhwIjoxNzE3OTcxMzIzfQ.9u4CKeCu3XToymOQl-U8h3H7zjPa4NkT3kqXV8qBZwA",
+    "email": "zwhite@example.org"
+}
+INFO     http.client:base_api.py:18 Making GET request to URL: http://localhost:4001/users/dgraham
+INFO     http.client:base_api.py:20 Request Headers:
+{
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkZ3JhaGFtIiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxNzk3MTAyMywiZXhwIjoxNzE3OTcxMzIzfQ.9u4CKeCu3XToymOQl-U8h3H7zjPa4NkT3kqXV8qBZwA"
+}
+INFO     http.client:base_api.py:35 Response Headers:
+{
+    "Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "0",
+    "X-Frame-Options": "DENY",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Date": "Sun, 09 Jun 2024 22:10:25 GMT",
     "Keep-Alive": "timeout=60",
     "Connection": "keep-alive"
 }
 INFO     http.client:base_api.py:39 Response Body:
 {
     "id": 4,
-    "username": "ryanmiller",
-    "email": "liuglenn@example.com",
+    "username": "dgraham",
+    "email": "samantha32@example.com",
     "roles": [
         "ROLE_ADMIN",
         "ROLE_CLIENT"
     ],
-    "firstName": "Mary",
-    "lastName": "Simmons"
+    "firstName": "Jeremy",
+    "lastName": "Stanley"
 }
-INFO     http.client:base_api.py:18 Making DELETE request to URL: http://localhost:4001/users/ryanmiller
+INFO     http.client:base_api.py:18 Making DELETE request to URL: http://localhost:4001/users/dgraham
 INFO     http.client:base_api.py:20 Request Headers:
 {
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyeWFubWlsbGVyIiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxNzk3MTAyMCwiZXhwIjoxNzE3OTcxMzIwfQ.1kprG_MSpXEWIBB5kjaOMQeDS4PrFxIi34_bcLJ55sc"
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkZ3JhaGFtIiwiYXV0aCI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9LHsiYXV0aG9yaXR5IjoiUk9MRV9DTElFTlQifV0sImlhdCI6MTcxNzk3MTAyMywiZXhwIjoxNzE3OTcxMzIzfQ.9u4CKeCu3XToymOQl-U8h3H7zjPa4NkT3kqXV8qBZwA"
 }
 INFO     http.client:base_api.py:35 Response Headers:
 {
@@ -113,7 +113,7 @@ INFO     http.client:base_api.py:35 Response Headers:
     "Pragma": "no-cache",
     "Expires": "0",
     "X-Frame-Options": "DENY",
-    "Date": "Sun, 09 Jun 2024 22:10:23 GMT",
+    "Date": "Sun, 09 Jun 2024 22:10:25 GMT",
     "Keep-Alive": "timeout=60",
     "Connection": "keep-alive"
 }

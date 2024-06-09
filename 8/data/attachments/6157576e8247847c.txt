@@ -15,7 +15,7 @@ INFO     http.client:base_api.py:35 Response Headers:
     "X-Frame-Options": "DENY",
     "Content-Type": "application/json;charset=UTF-8",
     "Transfer-Encoding": "chunked",
-    "Date": "Sun, 09 Jun 2024 22:10:06 GMT",
+    "Date": "Sun, 09 Jun 2024 22:10:10 GMT",
     "Keep-Alive": "timeout=60",
     "Connection": "keep-alive"
 }
@@ -28,6 +28,6 @@ INFO     http.client:base_api.py:39 Response Body:
     ],
     "firstName": "Slawomir",
     "lastName": "Radzyminski",
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQ0xJRU5UIn1dLCJpYXQiOjE3MTc5NzEwMDYsImV4cCI6MTcxNzk3MTMwNn0.bdq_efvQMHRJhKAQ943c_ZzRndkLtF9G67gVBkwETMQ",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQ0xJRU5UIn1dLCJpYXQiOjE3MTc5NzEwMTAsImV4cCI6MTcxNzk3MTMxMH0.rJwtZ8WEv2Dnf0LtlTf9iKotd9s26iZvLtz5K9sFWMI",
     "email": "admin@email.com"
 }

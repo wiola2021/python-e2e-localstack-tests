@@ -1,15 +1,22 @@
 INFO     WDM:logger.py:11 ====== WebDriver manager ======
 INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
 INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
-INFO     WDM:logger.py:11 Driver [/home/runner/.wdm/drivers/chromedriver/linux64/125.0.6422.141/chromedriver-linux64/chromedriver] found in cache
+INFO     WDM:logger.py:11 There is no [linux64] chromedriver "125.0.6422.141" for browser google-chrome "125.0.6422" in cache
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 WebDriver version 125.0.6422.141 selected
+INFO     WDM:logger.py:11 Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/125.0.6422.141/linux64/chromedriver-linux64.zip
+INFO     WDM:logger.py:11 About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/125.0.6422.141/linux64/chromedriver-linux64.zip
+INFO     WDM:logger.py:11 Driver downloading response is 200
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/125.0.6422.141]
 INFO     http.client:base_api.py:18 Making POST request to URL: http://localhost:4001/users/signup
 INFO     http.client:base_api.py:24 Request JSON Body:
 {
-    "username": "robert54",
-    "password": "@rDZ+wOl4k",
-    "email": "uduran@example.com",
-    "firstName": "Peter",
-    "lastName": "Jackson",
+    "username": "avega",
+    "password": "@!Pg2SFqII",
+    "email": "steve20@example.com",
+    "firstName": "James",
+    "lastName": "Moore",
     "roles": [
         "ROLE_ADMIN",
         "ROLE_CLIENT"
@@ -26,19 +33,19 @@ INFO     http.client:base_api.py:35 Response Headers:
     "X-Frame-Options": "DENY",
     "Content-Type": "application/json;charset=UTF-8",
     "Transfer-Encoding": "chunked",
-    "Date": "Sun, 09 Jun 2024 22:10:23 GMT",
+    "Date": "Sun, 09 Jun 2024 22:10:19 GMT",
     "Keep-Alive": "timeout=60",
     "Connection": "keep-alive"
 }
 INFO     http.client:base_api.py:39 Response Body:
 {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyb2JlcnQ1NCIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQ0xJRU5UIn1dLCJpYXQiOjE3MTc5NzEwMjMsImV4cCI6MTcxNzk3MTMyM30.i6akj1xwlAbHN8tiScnFtmNV6_kjD9UUo62LcUvdymY"
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdmVnYSIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQ0xJRU5UIn1dLCJpYXQiOjE3MTc5NzEwMTksImV4cCI6MTcxNzk3MTMxOX0.EXEbDCiNmHzH_-H7WwMrVIJcY6eVpWlUcTIpGoDRaDc"
 }
 INFO     http.client:base_api.py:18 Making POST request to URL: http://localhost:4001/users/signin
 INFO     http.client:base_api.py:24 Request JSON Body:
 {
-    "username": "robert54",
-    "password": "@rDZ+wOl4k"
+    "username": "avega",
+    "password": "@!Pg2SFqII"
 }
 INFO     http.client:base_api.py:35 Response Headers:
 {
@@ -51,26 +58,26 @@ INFO     http.client:base_api.py:35 Response Headers:
     "X-Frame-Options": "DENY",
     "Content-Type": "application/json;charset=UTF-8",
     "Transfer-Encoding": "chunked",
-    "Date": "Sun, 09 Jun 2024 22:10:24 GMT",
+    "Date": "Sun, 09 Jun 2024 22:10:20 GMT",
     "Keep-Alive": "timeout=60",
     "Connection": "keep-alive"
 }
 INFO     http.client:base_api.py:39 Response Body:
 {
-    "username": "robert54",
+    "username": "avega",
     "roles": [
         "ROLE_ADMIN",
         "ROLE_CLIENT"
     ],
-    "firstName": "Peter",
-    "lastName": "Jackson",
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyb2JlcnQ1NCIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQ0xJRU5UIn1dLCJpYXQiOjE3MTc5NzEwMjQsImV4cCI6MTcxNzk3MTMyNH0.DjChH2ePlFMueHkVDaB0k1_PhoAHhLE27ifE22F6_Lo",
-    "email": "uduran@example.com"
+    "firstName": "James",
+    "lastName": "Moore",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdmVnYSIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQ0xJRU5UIn1dLCJpYXQiOjE3MTc5NzEwMjAsImV4cCI6MTcxNzk3MTMyMH0.cL7pLEk0POoC2X28XvZODi0jRF9nRsmYpYEQE0fWpOA",
+    "email": "steve20@example.com"
 }
-INFO     http.client:base_api.py:18 Making DELETE request to URL: http://localhost:4001/users/robert54
+INFO     http.client:base_api.py:18 Making DELETE request to URL: http://localhost:4001/users/avega
 INFO     http.client:base_api.py:20 Request Headers:
 {
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyb2JlcnQ1NCIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQ0xJRU5UIn1dLCJpYXQiOjE3MTc5NzEwMjQsImV4cCI6MTcxNzk3MTMyNH0.DjChH2ePlFMueHkVDaB0k1_PhoAHhLE27ifE22F6_Lo"
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhdmVnYSIsImF1dGgiOlt7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQ0xJRU5UIn1dLCJpYXQiOjE3MTc5NzEwMjAsImV4cCI6MTcxNzk3MTMyMH0.cL7pLEk0POoC2X28XvZODi0jRF9nRsmYpYEQE0fWpOA"
 }
 INFO     http.client:base_api.py:35 Response Headers:
 {
@@ -81,7 +88,7 @@ INFO     http.client:base_api.py:35 Response Headers:
     "Pragma": "no-cache",
     "Expires": "0",
     "X-Frame-Options": "DENY",
-    "Date": "Sun, 09 Jun 2024 22:10:24 GMT",
+    "Date": "Sun, 09 Jun 2024 22:10:21 GMT",
     "Keep-Alive": "timeout=60",
     "Connection": "keep-alive"
 }
