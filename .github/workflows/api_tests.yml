@@ -1,0 +1,40 @@
+name: Run API Tests
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  run-api-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+
+    - name: Install python-dotenv
+      run: pip install python-dotenv
+
+    - name: Load environment variables from .env file
+      run: |
+        echo "FRONTEND_URL=${{ secrets.FRONTEND_URL }}" >> $GITHUB_ENV
+        echo "ADMIN_USERNAME=${{ secrets.ADMIN_USERNAME }}" >> $GITHUB_ENV
+        echo "ADMIN_PASSWORD=${{ secrets.ADMIN_PASSWORD }}" >> $GITHUB_ENV
+        echo "BACKEND_URL=${{ secrets.BACKEND_URL }}" >> $GITHUB_ENV
+        echo "IS_HEADLESS=${{ secrets.IS_HEADLESS }}" >> $GITHUB_ENV
+
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+
+    - name: Run API tests
+      run: pytest tests/api_tests/
