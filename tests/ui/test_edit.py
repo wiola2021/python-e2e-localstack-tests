@@ -1,7 +1,7 @@
 import time
 from typing import Tuple
 from api.data.register import User
-from api.get_user import GetUser
+from api.get_users import GetUser
 from generators.user_generator import get_random_user
 from pages.home_page import HomePage
 

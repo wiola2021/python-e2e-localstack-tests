@@ -7,3 +7,4 @@ class SignIn(BaseAPI):
         login_request = LoginRequestDto(username=username, password=password).to_dict()
         response = self.make_request("POST", "users/signin", json=login_request)
         return response
+
